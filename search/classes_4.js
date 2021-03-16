@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['runnablebehaviour_60',['RunnableBehaviour',['../df/ddf/class_wakaba_1_1_runnable_behaviour.html',1,'Wakaba']]],
-  ['runnableutils_61',['RunnableUtils',['../db/d14/class_wakaba_1_1_runnable_utils.html',1,'Wakaba']]]
+  ['joystickinput_71',['JoystickInput',['../d6/d46/class_wakaba_1_1_mobile_1_1_joystick_input.html',1,'Wakaba::Mobile']]]
 ];

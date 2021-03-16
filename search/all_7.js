@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['mobileinput_23',['MobileInput',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html',1,'Wakaba::Mobile']]],
-  ['monosingleton_24',['MonoSingleton',['../db/d75/class_wakaba_1_1_mono_singleton.html',1,'Wakaba']]],
-  ['monosingleton_3c_20lootmanager_20_3e_25',['MonoSingleton&lt; LootManager &gt;',['../db/d75/class_wakaba_1_1_mono_singleton.html',1,'Wakaba']]]
+  ['loadablename_23',['LoadableName',['../da/d54/class_wakaba_1_1_scene_field_attribute.html#a4879296d7df1072130110a52204b7207',1,'Wakaba::SceneFieldAttribute']]],
+  ['lootable_24',['Lootable',['../d2/db5/class_wakaba_1_1_loot_1_1_lootable.html',1,'Wakaba::Loot']]],
+  ['lootcontainer_25',['LootContainer',['../dc/d7c/class_wakaba_1_1_loot_1_1_loot_container.html',1,'Wakaba::Loot']]],
+  ['lootmanager_26',['LootManager',['../d4/d0e/class_wakaba_1_1_loot_1_1_loot_manager.html',1,'Wakaba::Loot']]],
+  ['loottable_27',['LootTable',['../d1/ddb/class_wakaba_1_1_loot_1_1_loot_table.html',1,'Wakaba::Loot']]]
 ];

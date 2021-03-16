@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['irunnable_51',['IRunnable',['../de/d0e/interface_wakaba_1_1_i_runnable.html',1,'Wakaba']]]
+  ['conversation_66',['Conversation',['../d8/d69/class_wakaba_1_1_dialogue_1_1mh_ei_j___1_1_conversation.html',1,'Wakaba::Dialogue::mhEiJ_']]]
 ];

@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['initialise_13',['Initialise',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html#a1647f98c49d9fc6446390556aec6e504',1,'Wakaba::Mobile::MobileInput']]],
-  ['initialpos_14',['initialPos',['../d2/d11/class_wakaba_1_1_mobile_1_1_swipe_input_1_1_swipe.html#ae828d5fe4fd76417d1d5e58095a7743c',1,'Wakaba::Mobile::SwipeInput::Swipe']]],
-  ['irunnable_15',['IRunnable',['../de/d0e/interface_wakaba_1_1_i_runnable.html',1,'Wakaba']]],
-  ['issingletonvalid_16',['IsSingletonValid',['../db/d75/class_wakaba_1_1_mono_singleton.html#aab30e4615c47cb419ea1025552a00486',1,'Wakaba::MonoSingleton']]]
+  ['gameobjectcomparer_11',['GameObjectComparer',['../d8/db4/class_wakaba_1_1_utils_1_1_comparers_1_1_game_object_comparer.html',1,'Wakaba::Utils::Comparers']]],
+  ['generateloot_12',['GenerateLoot',['../d1/ddb/class_wakaba_1_1_loot_1_1_loot_table.html#af393e0f0532ccb04d70b13937153ee48',1,'Wakaba::Loot::LootTable']]],
+  ['generatetable_13',['GenerateTable',['../d1/ddb/class_wakaba_1_1_loot_1_1_loot_table.html#a7d913d6dffa89d10fe7d2ba68955e80a',1,'Wakaba::Loot::LootTable']]],
+  ['getjoystickaxis_14',['GetJoystickAxis',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html#aa04bb41ad0568067a68b8877bd37d4ca',1,'Wakaba::Mobile::MobileInput']]],
+  ['getpropertyheight_15',['GetPropertyHeight',['../d7/d43/class_wakaba_1_1_scene_field_drawer.html#ac9671a9801511e1c4b11c60bd2f9ba81',1,'Wakaba.SceneFieldDrawer.GetPropertyHeight()'],['../d5/d63/class_wakaba_1_1_tag_drawer.html#a4026b5a1090b88e5e0365ec3dbe50149',1,'Wakaba.TagDrawer.GetPropertyHeight()']]],
+  ['getswipe_16',['GetSwipe',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html#ae881a36cf5f3711f72be93e7a4bc63d7',1,'Wakaba.Mobile.MobileInput.GetSwipe()'],['../d2/ddb/class_wakaba_1_1_mobile_1_1_swipe_input.html#ae0068f0ab95e2a1c4e0ea6335409a116',1,'Wakaba.Mobile.SwipeInput.GetSwipe()']]]
 ];
