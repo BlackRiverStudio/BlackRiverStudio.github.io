@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joystickinput_72',['JoystickInput',['../d6/d46/class_wakaba_1_1_mobile_1_1_joystick_input.html',1,'Wakaba::Mobile']]]
+  ['irunnable_72',['IRunnable',['../de/d0e/interface_wakaba_1_1_i_runnable.html',1,'Wakaba']]]
 ];

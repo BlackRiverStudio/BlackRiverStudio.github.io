@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['irunnable_71',['IRunnable',['../de/d0e/interface_wakaba_1_1_i_runnable.html',1,'Wakaba']]]
+  ['gameobjectcomparer_71',['GameObjectComparer',['../d8/db4/class_wakaba_1_1_utils_1_1_comparers_1_1_game_object_comparer.html',1,'Wakaba::Utils::Comparers']]]
 ];

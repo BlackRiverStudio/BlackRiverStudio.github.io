@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['runnablebehaviour_80',['RunnableBehaviour',['../df/ddf/class_wakaba_1_1_runnable_behaviour.html',1,'Wakaba']]],
-  ['runnableutils_81',['RunnableUtils',['../db/d14/class_wakaba_1_1_runnable_utils.html',1,'Wakaba']]]
+  ['mobileinput_78',['MobileInput',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html',1,'Wakaba::Mobile']]],
+  ['monosingleton_79',['MonoSingleton',['../db/d75/class_wakaba_1_1_mono_singleton.html',1,'Wakaba']]],
+  ['monosingleton_3c_20lootmanager_20_3e_80',['MonoSingleton&lt; LootManager &gt;',['../db/d75/class_wakaba_1_1_mono_singleton.html',1,'Wakaba']]]
 ];

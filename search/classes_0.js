@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['conversation_67',['Conversation',['../d8/d69/class_wakaba_1_1_dialogue_1_1mh_ei_j___1_1_conversation.html',1,'Wakaba::Dialogue::mhEiJ_']]]
+  ['actioninfo_67',['ActionInfo',['../d3/dad/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_action_info.html',1,'Wakaba::Dialogue::Conversation']]]
 ];
