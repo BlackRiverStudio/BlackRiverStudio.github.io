@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['calculateflick_104',['CalculateFlick',['../d2/ddb/class_wakaba_1_1_mobile_1_1_swipe_input.html#ae1577cd9a988df4763596afd4e32f898',1,'Wakaba::Mobile::SwipeInput']]],
-  ['createinstance_105',['CreateInstance',['../db/d75/class_wakaba_1_1_mono_singleton.html#aa832991467098653da4670d92f2ed2b0',1,'Wakaba::MonoSingleton']]]
+  ['bubblesort_3c_20t_20_3e_105',['BubbleSort&lt; T &gt;',['../df/d3a/class_wakaba_1_1_utils_1_1_extensions_1_1_sorting_extension.html#ad62169940d798a31884111cdf3b34021',1,'Wakaba::Utils::Extensions::SortingExtension']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['resetswipe_118',['ResetSwipe',['../d2/ddb/class_wakaba_1_1_mobile_1_1_swipe_input.html#a86ea594404f6bb7bf89d515672c5916a',1,'Wakaba::Mobile::SwipeInput']]],
-  ['run_3c_20t_20_3e_119',['Run&lt; T &gt;',['../db/d14/class_wakaba_1_1_runnable_utils.html#a607c27a29810ea032a67a0e2180cadf6',1,'Wakaba::RunnableUtils']]]
+  ['ongui_119',['OnGUI',['../d7/d43/class_wakaba_1_1_scene_field_drawer.html#a2101b0512de51731fd2cec76c9844f7b',1,'Wakaba.SceneFieldDrawer.OnGUI()'],['../d5/d63/class_wakaba_1_1_tag_drawer.html#a54f4885a93cbe7af72013373d4dea050',1,'Wakaba.TagDrawer.OnGUI()']]]
 ];
