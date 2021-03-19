@@ -75,16 +75,26 @@ $(function() {
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    [CreateAssetMenu(menuName = <span class="stringliteral">&quot;Wakaba/Dialogue/Speaker&quot;</span>, fileName = <span class="stringliteral">&quot;NewSpeaker&quot;</span>)]</div>
 <div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">    7</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Speaker</a> : ScriptableObject</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        [SerializeField, Tooltip(<span class="stringliteral">&quot;The name of the NPC or PC speaking.&quot;</span>)]</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">private</span> <span class="keywordtype">string</span> speakerName;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> GetName =&gt; speakerName;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        [SerializeField, Tooltip(<span class="stringliteral">&quot;Speaker&#39;s face sprite that is displayed within the dialogue box.\n\nSprite sheet can be used to create multiple expressions.&quot;</span>)]</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">private</span> Sprite speakerSprite;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span> Sprite GetSprite =&gt; speakerSprite;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="ttc" id="aclass_wakaba_1_1_dialogue_1_1_speaker_html"><div class="ttname"><a href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Wakaba.Dialogue.Speaker</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d34/_speaker_8cs_source.html#l00007">Speaker.cs:8</a></div></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        [Tooltip(<span class="stringliteral">&quot;If this Speaker is known to the player, return true.&quot;</span>)]</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> known;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        [SerializeField, Tooltip(<span class="stringliteral">&quot;The name of the NPC or PC speaking.&quot;</span>)]</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">private</span> <span class="keywordtype">string</span> speakerName;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> GetName</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keyword">get</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (known) <span class="keywordflow">return</span> speakerName;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> <span class="stringliteral">&quot;???&quot;</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            } </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        [SerializeField, Tooltip(<span class="stringliteral">&quot;Speaker&#39;s face sprite that is displayed within the dialogue box.\n\nSprite sheet can be used to create multiple expressions.&quot;</span>)]</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">private</span> Sprite speakerSprite;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">public</span> Sprite GetSprite =&gt; speakerSprite;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="ttc" id="aclass_wakaba_1_1_dialogue_1_1_speaker_html"><div class="ttname"><a href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Wakaba.Dialogue.Speaker</a></div><div class="ttdoc">A ScriptableObject that acts as a reference for a NPC or a PC that utilises the Dialogue system.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d34/_speaker_8cs_source.html#l00007">Speaker.cs:8</a></div></div>
 <div class="ttc" id="anamespace_wakaba_1_1_dialogue_html"><div class="ttname"><a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html">Wakaba.Dialogue</a></div><div class="ttdoc">Module used to impliment a dynamic dialogue system.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/_conversation_8cs_source.html#l00004">Conversation.cs:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
