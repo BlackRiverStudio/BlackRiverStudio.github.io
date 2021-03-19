@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['dialoguelines_69',['DialogueLines',['../d0/df8/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_lines.html',1,'Wakaba::Dialogue::Conversation']]],
-  ['dialoguemanager_70',['DialogueManager',['../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html',1,'Wakaba::Dialogue']]]
+  ['dialogueline_75',['DialogueLine',['../db/da9/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_line.html',1,'Wakaba::Dialogue::Conversation']]],
+  ['dialoguemanager_76',['DialogueManager',['../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html',1,'Wakaba::Dialogue']]]
 ];

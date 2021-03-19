@@ -72,24 +72,59 @@ $(function() {
 <div class="title">Wakaba.Dialogue Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Module used to impliment a dynamic dialogue system.  
+<a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html">Conversation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a ScriptableObject that contains information about a specific conversation accessible within the game.  <a href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html">DialogueManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages the UI interface of the <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html" title="Module used to impliment a dynamic dialogue system.">Dialogue</a> System, and functions used in it's operation. Multiple Conversations can and should exist, but they are not able to be attached as a compnent.  <a href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Speaker</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="memItemLeft" align="right" valign="top"><a id="a93c820f6d5ff5fbc28c7e13573b628cd"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>DialogueActions</b> { <b>Next</b>
-, <b>Jump</b>
+<tr class="memitem:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">DialogueActions</a> { <b>Next</b>
+, <b>Branch</b>
 , <b>Bye</b>
  }</td></tr>
+<tr class="memdesc:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of dialogue actions avaliable. Next: following DialogueLine in array. Branch: specific DialogueLine in array chosen within the Inspector. Bye: ends Conversation.  <a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">More...</a><br /></td></tr>
 <tr class="separator:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Module used to impliment a dynamic dialogue system. </p>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a93c820f6d5ff5fbc28c7e13573b628cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93c820f6d5ff5fbc28c7e13573b628cd">&#9670;&nbsp;</a></span>DialogueActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">Wakaba.Dialogue.DialogueActions</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Types of dialogue actions avaliable. Next: following DialogueLine in array. Branch: specific DialogueLine in array chosen within the Inspector. Bye: ends <a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html" title="This is a ScriptableObject that contains information about a specific conversation accessible within ...">Conversation</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/def/_conversation_8cs_source.html#l00048">48</a> of file <a class="el" href="../../df/def/_conversation_8cs_source.html">Conversation.cs</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

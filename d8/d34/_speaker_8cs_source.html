@@ -69,21 +69,23 @@ $(function() {
 <div class="title">Speaker.cs</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Referencing www.youtu.be/mhEiJ_-jyTs</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html">Wakaba.Dialogue</a></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    [CreateAssetMenu(menuName = <span class="stringliteral">&quot;Wakaba/Dialogue/Speaker&quot;</span>, fileName = <span class="stringliteral">&quot;NewSpeaker&quot;</span>)]</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">    6</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Speaker</a> : ScriptableObject</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        [SerializeField] <span class="keyword">private</span> <span class="keywordtype">string</span> speakerName;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        [SerializeField] <span class="keyword">private</span> Sprite speakerSprite;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> GetName() =&gt; speakerName;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">public</span> Sprite GetSprite() =&gt; speakerSprite;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="aclass_wakaba_1_1_dialogue_1_1_speaker_html"><div class="ttname"><a href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Wakaba.Dialogue.Speaker</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d34/_speaker_8cs_source.html#l00006">Speaker.cs:7</a></div></div>
-<div class="ttc" id="anamespace_wakaba_1_1_dialogue_html"><div class="ttname"><a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html">Wakaba.Dialogue</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/_conversation_8cs_source.html#l00004">Conversation.cs:5</a></div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    [CreateAssetMenu(menuName = <span class="stringliteral">&quot;Wakaba/Dialogue/Speaker&quot;</span>, fileName = <span class="stringliteral">&quot;NewSpeaker&quot;</span>)]</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">    7</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Speaker</a> : ScriptableObject</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        [SerializeField, Tooltip(<span class="stringliteral">&quot;The name of the NPC or PC speaking.&quot;</span>)]</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">private</span> <span class="keywordtype">string</span> speakerName;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> GetName =&gt; speakerName;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        [SerializeField, Tooltip(<span class="stringliteral">&quot;Speaker&#39;s face sprite that is displayed within the dialogue box.\n\nSprite sheet can be used to create multiple expressions.&quot;</span>)]</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">private</span> Sprite speakerSprite;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span> Sprite GetSprite =&gt; speakerSprite;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="ttc" id="aclass_wakaba_1_1_dialogue_1_1_speaker_html"><div class="ttname"><a href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Wakaba.Dialogue.Speaker</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d34/_speaker_8cs_source.html#l00007">Speaker.cs:8</a></div></div>
+<div class="ttc" id="anamespace_wakaba_1_1_dialogue_html"><div class="ttname"><a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html">Wakaba.Dialogue</a></div><div class="ttdoc">Module used to impliment a dynamic dialogue system.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/_conversation_8cs_source.html#l00004">Conversation.cs:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

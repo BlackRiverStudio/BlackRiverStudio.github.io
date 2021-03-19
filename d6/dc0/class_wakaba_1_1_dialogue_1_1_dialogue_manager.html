@@ -76,6 +76,9 @@ $(function() {
 <div class="title">Wakaba.Dialogue.DialogueManager Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Manages the UI interface of the <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html" title="Module used to impliment a dynamic dialogue system.">Dialogue</a> System, and functions used in it's operation. Multiple Conversations can and should exist, but they are not able to be attached as a compnent.  
+ <a href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Wakaba.Dialogue.DialogueManager:</div>
 <div class="dyncontent">
@@ -85,14 +88,13 @@ Inheritance diagram for Wakaba.Dialogue.DialogueManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6d288c667745edb59e7687ecfc540ac"><td class="memItemLeft" align="right" valign="top"><a id="ad6d288c667745edb59e7687ecfc540ac"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>JumpTo</b> (int _index)</td></tr>
+<tr class="memitem:ad6d288c667745edb59e7687ecfc540ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#ad6d288c667745edb59e7687ecfc540ac">JumpTo</a> (int _index)</td></tr>
+<tr class="memdesc:ad6d288c667745edb59e7687ecfc540ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes <a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html" title="This is a ScriptableObject that contains information about a specific conversation accessible within ...">Conversation</a> index, and updates the display accordingly.  <a href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#ad6d288c667745edb59e7687ecfc540ac">More...</a><br /></td></tr>
 <tr class="separator:ad6d288c667745edb59e7687ecfc540ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad640c5552fa862a840bdb249d9a1bc50"><td class="memItemLeft" align="right" valign="top"><a id="ad640c5552fa862a840bdb249d9a1bc50"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>StartConversation</b> (<a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html">Conversation</a> _convo)</td></tr>
+<tr class="memitem:ad640c5552fa862a840bdb249d9a1bc50"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#ad640c5552fa862a840bdb249d9a1bc50">StartConversation</a> (<a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html">Conversation</a> _convo)</td></tr>
 <tr class="separator:ad640c5552fa862a840bdb249d9a1bc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -100,14 +102,14 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a23063818203a4915bbbfbb1e6cfa54cc"><td class="memItemLeft" align="right" valign="top"><a id="a23063818203a4915bbbfbb1e6cfa54cc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
 <tr class="separator:a23063818203a4915bbbfbb1e6cfa54cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1631527e36056d808e824b650344143"><td class="memItemLeft" align="right" valign="top"><a id="af1631527e36056d808e824b650344143"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>EndConversation</b> ()</td></tr>
+<tr class="memitem:af1631527e36056d808e824b650344143"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#af1631527e36056d808e824b650344143">EndConversation</a> ()</td></tr>
+<tr class="memdesc:af1631527e36056d808e824b650344143"><td class="mdescLeft">&#160;</td><td class="mdescRight">!going to rewrite this to make it more dynamic. Worldspace canvas and animations in mind. Stuff like that.  <a href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#af1631527e36056d808e824b650344143">More...</a><br /></td></tr>
 <tr class="separator:af1631527e36056d808e824b650344143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522962be56f3456adf151b008fb2dcb6"><td class="memItemLeft" align="right" valign="top"><a id="a522962be56f3456adf151b008fb2dcb6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HouseKeeper</b> ()</td></tr>
-<tr class="separator:a522962be56f3456adf151b008fb2dcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a436f2dcb46983e0e589a6dd82bfc551d"><td class="memItemLeft" align="right" valign="top"><a id="a436f2dcb46983e0e589a6dd82bfc551d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetButtons</b> ()</td></tr>
+<tr class="memitem:a4bd81edc14f63a1d6faf8a9c41c05589"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#a4bd81edc14f63a1d6faf8a9c41c05589">UpdateDisplay</a> ()</td></tr>
+<tr class="memdesc:a4bd81edc14f63a1d6faf8a9c41c05589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes UI components as required for current DialogueLine  <a href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#a4bd81edc14f63a1d6faf8a9c41c05589">More...</a><br /></td></tr>
+<tr class="separator:a4bd81edc14f63a1d6faf8a9c41c05589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a436f2dcb46983e0e589a6dd82bfc551d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#a436f2dcb46983e0e589a6dd82bfc551d">ResetButtons</a> ()</td></tr>
+<tr class="memdesc:a436f2dcb46983e0e589a6dd82bfc551d"><td class="mdescLeft">&#160;</td><td class="mdescRight">What it says on the tin.  <a href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#a436f2dcb46983e0e589a6dd82bfc551d">More...</a><br /></td></tr>
 <tr class="separator:a436f2dcb46983e0e589a6dd82bfc551d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -121,15 +123,15 @@ Text&#160;</td><td class="memItemRight" valign="bottom"><b>speakerName</b></td><
 <tr class="memitem:aac1d789fdf0499a0467870fd2f210bb9"><td class="memItemLeft" align="right" valign="top"><a id="aac1d789fdf0499a0467870fd2f210bb9"></a>
 Text&#160;</td><td class="memItemRight" valign="bottom"><b>dialogue</b></td></tr>
 <tr class="separator:aac1d789fdf0499a0467870fd2f210bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2f3bd958f4472a9d5d4abaf8dca6247"><td class="memItemLeft" align="right" valign="top"><a id="ae2f3bd958f4472a9d5d4abaf8dca6247"></a>
-Button&#160;</td><td class="memItemRight" valign="bottom"><b>buttonNext</b></td></tr>
-<tr class="separator:ae2f3bd958f4472a9d5d4abaf8dca6247"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81ea05e185b970c466a4c210e8b9d2b4"><td class="memItemLeft" align="right" valign="top"><a id="a81ea05e185b970c466a4c210e8b9d2b4"></a>
-Button&#160;</td><td class="memItemRight" valign="bottom"><b>buttonBye</b></td></tr>
-<tr class="separator:a81ea05e185b970c466a4c210e8b9d2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc49790efb8fc6a5a717d309665d6ea3"><td class="memItemLeft" align="right" valign="top"><a id="acc49790efb8fc6a5a717d309665d6ea3"></a>
-Button[]&#160;</td><td class="memItemRight" valign="bottom"><b>extraButtons</b></td></tr>
-<tr class="separator:acc49790efb8fc6a5a717d309665d6ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4902b4480951789de61ec36e28a69730"><td class="memItemLeft" align="right" valign="top"><a id="a4902b4480951789de61ec36e28a69730"></a>
+Button&#160;</td><td class="memItemRight" valign="bottom"><b>nextButton</b></td></tr>
+<tr class="separator:a4902b4480951789de61ec36e28a69730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f7705438f78c26dd5a844fd4db22fe"><td class="memItemLeft" align="right" valign="top"><a id="a53f7705438f78c26dd5a844fd4db22fe"></a>
+Button&#160;</td><td class="memItemRight" valign="bottom"><b>byeButton</b></td></tr>
+<tr class="separator:a53f7705438f78c26dd5a844fd4db22fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7faedf42879a2a945b961ab9acfc27f0"><td class="memItemLeft" align="right" valign="top"><a id="a7faedf42879a2a945b961ab9acfc27f0"></a>
+Button[]&#160;</td><td class="memItemRight" valign="bottom"><b>branchButtons</b></td></tr>
+<tr class="separator:a7faedf42879a2a945b961ab9acfc27f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d78f7dedd6b0b2e67cb4832a5e09d3"><td class="memItemLeft" align="right" valign="top"><a id="ab4d78f7dedd6b0b2e67cb4832a5e09d3"></a>
 Image&#160;</td><td class="memItemRight" valign="bottom"><b>speakerSprite</b></td></tr>
 <tr class="separator:ab4d78f7dedd6b0b2e67cb4832a5e09d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,14 +141,173 @@ Image&#160;</td><td class="memItemRight" valign="bottom"><b>speakerSprite</b></t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a6913576795528e91c3433347c353aedd"><td class="memItemLeft" align="right" valign="top"><a id="a6913576795528e91c3433347c353aedd"></a>
-static <a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html">DialogueManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>instance</b></td></tr>
-<tr class="separator:a6913576795528e91c3433347c353aedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04c57ce40d3b7e5f2e90598e04065a4"><td class="memItemLeft" align="right" valign="top"><a id="af04c57ce40d3b7e5f2e90598e04065a4"></a>
+static <a class="el" href="../../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html">DialogueManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>v</b></td></tr>
+<tr class="separator:af04c57ce40d3b7e5f2e90598e04065a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html#l00007">7</a> of file <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>Manages the UI interface of the <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html" title="Module used to impliment a dynamic dialogue system.">Dialogue</a> System, and functions used in it's operation. Multiple Conversations can and should exist, but they are not able to be attached as a compnent. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html#l00010">10</a> of file <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af1631527e36056d808e824b650344143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1631527e36056d808e824b650344143">&#9670;&nbsp;</a></span>EndConversation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wakaba.Dialogue.DialogueManager.EndConversation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!going to rewrite this to make it more dynamic. Worldspace canvas and animations in mind. Stuff like that. </p>
+
+</div>
+</div>
+<a id="ad6d288c667745edb59e7687ecfc540ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d288c667745edb59e7687ecfc540ac">&#9670;&nbsp;</a></span>JumpTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wakaba.Dialogue.DialogueManager.JumpTo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes <a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html" title="This is a ScriptableObject that contains information about a specific conversation accessible within ...">Conversation</a> index, and updates the display accordingly. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_index</td><td>The destination DialogueLine.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html#l00098">98</a> of file <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a436f2dcb46983e0e589a6dd82bfc551d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a436f2dcb46983e0e589a6dd82bfc551d">&#9670;&nbsp;</a></span>ResetButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wakaba.Dialogue.DialogueManager.ResetButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>What it says on the tin. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html#l00105">105</a> of file <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad640c5552fa862a840bdb249d9a1bc50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad640c5552fa862a840bdb249d9a1bc50">&#9670;&nbsp;</a></span>StartConversation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Wakaba.Dialogue.DialogueManager.StartConversation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html">Conversation</a>&#160;</td>
+          <td class="paramname"><em>_convo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_convo</td><td><a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html" title="This is a ScriptableObject that contains information about a specific conversation accessible within ...">Conversation</a> being referenced.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html#l00038">38</a> of file <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4bd81edc14f63a1d6faf8a9c41c05589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd81edc14f63a1d6faf8a9c41c05589">&#9670;&nbsp;</a></span>UpdateDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wakaba.Dialogue.DialogueManager.UpdateDisplay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Refreshes UI components as required for current DialogueLine </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html#l00056">56</a> of file <a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Wakaba/Assets/Wakaba/Dialogue/<a class="el" href="../../d1/de7/_dialogue_manager_8cs_source.html">DialogueManager.cs</a></li>
 </ul>
 </div><!-- contents -->

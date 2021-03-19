@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['loadablename_25',['LoadableName',['../da/d54/class_wakaba_1_1_scene_field_attribute.html#a4879296d7df1072130110a52204b7207',1,'Wakaba::SceneFieldAttribute']]],
-  ['lootable_26',['Lootable',['../d2/db5/class_wakaba_1_1_loot_1_1_lootable.html',1,'Wakaba::Loot']]],
-  ['lootcontainer_27',['LootContainer',['../dc/d7c/class_wakaba_1_1_loot_1_1_loot_container.html',1,'Wakaba::Loot']]],
-  ['lootmanager_28',['LootManager',['../d4/d0e/class_wakaba_1_1_loot_1_1_loot_manager.html',1,'Wakaba::Loot']]],
-  ['loottable_29',['LootTable',['../d1/ddb/class_wakaba_1_1_loot_1_1_loot_table.html',1,'Wakaba::Loot']]]
+  ['joystickinput_26',['JoystickInput',['../d6/d46/class_wakaba_1_1_mobile_1_1_joystick_input.html',1,'Wakaba::Mobile']]],
+  ['jumpto_27',['JumpTo',['../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#ad6d288c667745edb59e7687ecfc540ac',1,'Wakaba::Dialogue::DialogueManager']]]
 ];

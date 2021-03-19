@@ -75,6 +75,9 @@ $(function() {
 <div class="title">Wakaba.Dialogue.Conversation Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This is a ScriptableObject that contains information about a specific conversation accessible within the game.  
+ <a href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Wakaba.Dialogue.Conversation:</div>
 <div class="dyncontent">
@@ -85,8 +88,10 @@ Inheritance diagram for Wakaba.Dialogue.Conversation:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dad/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_action_info.html">ActionInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information regarding the actions avaliable within the dialogue line. Alows for a dynamic system with branching options for conversations.  <a href="../../d3/dad/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_action_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_lines.html">DialogueLines</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da9/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_line.html">DialogueLine</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information for a single line of dialogue. Includes the <a class="el" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Speaker</a>, their words, and possible actions from there.  <a href="../../db/da9/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_line.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -97,19 +102,20 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> = 0</td></tr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a1fbaef071688ec326dba4c3949925685"><td class="memItemLeft" align="right" valign="top"><a id="a1fbaef071688ec326dba4c3949925685"></a>
-<a class="el" href="../../d0/df8/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_lines.html">DialogueLines</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>GetLines</b><code> [get]</code></td></tr>
-<tr class="separator:a1fbaef071688ec326dba4c3949925685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b3f861923d3ba6beab9e3a84eeefab"><td class="memItemLeft" align="right" valign="top"><a id="a70b3f861923d3ba6beab9e3a84eeefab"></a>
+<a class="el" href="../../db/da9/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_line.html">DialogueLine</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>GetLines</b><code> [get]</code></td></tr>
+<tr class="separator:a70b3f861923d3ba6beab9e3a84eeefab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a480f8969c37045abec9720e317ba568d"><td class="memItemLeft" align="right" valign="top"><a id="a480f8969c37045abec9720e317ba568d"></a>
-<a class="el" href="../../d0/df8/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_lines.html">DialogueLines</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>allLines</b></td></tr>
-<tr class="separator:a480f8969c37045abec9720e317ba568d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30306c6b593f5c3dbbc6d494d1ec39e"><td class="memItemLeft" align="right" valign="top"><a id="ad30306c6b593f5c3dbbc6d494d1ec39e"></a>
+<a class="el" href="../../db/da9/struct_wakaba_1_1_dialogue_1_1_conversation_1_1_dialogue_line.html">DialogueLine</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>allLines</b></td></tr>
+<tr class="separator:ad30306c6b593f5c3dbbc6d494d1ec39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/def/_conversation_8cs_source.html#l00007">7</a> of file <a class="el" href="../../df/def/_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<div class="textblock"><p>This is a ScriptableObject that contains information about a specific conversation accessible within the game. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/def/_conversation_8cs_source.html#l00008">8</a> of file <a class="el" href="../../df/def/_conversation_8cs_source.html">Conversation.cs</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Wakaba/Assets/Wakaba/Dialogue/<a class="el" href="../../df/def/_conversation_8cs_source.html">Conversation.cs</a></li>
 </ul>
