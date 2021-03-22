@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ongui_37',['OnGUI',['../d7/d43/class_wakaba_1_1_scene_field_drawer.html#a2101b0512de51731fd2cec76c9844f7b',1,'Wakaba.SceneFieldDrawer.OnGUI()'],['../d5/d63/class_wakaba_1_1_tag_drawer.html#a54f4885a93cbe7af72013373d4dea050',1,'Wakaba.TagDrawer.OnGUI()']]]
+  ['next_41',['Next',['../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cda10ac3d04253ef7e1ddc73e6091c0cd55',1,'Wakaba::Dialogue']]]
 ];

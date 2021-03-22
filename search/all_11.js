@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['validate_3c_20t_20_3e_63',['Validate&lt; T &gt;',['../db/d14/class_wakaba_1_1_runnable_utils.html#a8fd705c66ee7949936d43e57d4797e32',1,'Wakaba::RunnableUtils']]],
-  ['volumetrigger_64',['VolumeTrigger',['../df/d44/class_wakaba_1_1_volume_trigger.html',1,'Wakaba']]]
+  ['updatedisplay_67',['UpdateDisplay',['../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#a4bd81edc14f63a1d6faf8a9c41c05589',1,'Wakaba::Dialogue::DialogueManager']]]
 ];

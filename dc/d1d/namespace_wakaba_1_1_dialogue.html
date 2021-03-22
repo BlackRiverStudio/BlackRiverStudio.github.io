@@ -87,14 +87,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html">Speaker</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A ScriptableObject that acts as a reference for a NPC or a PC that utilises the <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html" title="Module used to impliment a dynamic dialogue system.">Dialogue</a> system.  <a href="../../d3/d1f/class_wakaba_1_1_dialogue_1_1_speaker.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc1/class_wakaba_1_1_dialogue_1_1_action_button_drawer.html">ActionButtonDrawer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d91/class_wakaba_1_1_dialogue_1_1_dialogue_line_drawer.html">DialogueLineDrawer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">DialogueActions</a> { <b>Next</b>
-, <b>Branch</b>
-, <b>Bye</b>
+<tr class="memitem:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">DialogueActions</a> { <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cda10ac3d04253ef7e1ddc73e6091c0cd55">Next</a>
+, <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cdadacdb83ade6c4e8878717e206175dfd8">Branch</a>
+, <a class="el" href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cdab665d826e919381052ec23b9eaec3b62">Bye</a>
  }</td></tr>
-<tr class="memdesc:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of dialogue actions avaliable. Next: following DialogueLine in array. Branch: specific DialogueLine in array chosen within the Inspector. Bye: ends Conversation.  <a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">More...</a><br /></td></tr>
+<tr class="memdesc:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of dialogue actions avaliable.  <a href="../../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd">More...</a><br /></td></tr>
 <tr class="separator:a93c820f6d5ff5fbc28c7e13573b628cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -120,9 +124,17 @@ Enumerations</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Types of dialogue actions avaliable. Next: following DialogueLine in array. Branch: specific DialogueLine in array chosen within the Inspector. Bye: ends <a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html" title="This is a ScriptableObject that contains information about a specific Conversation accessible within ...">Conversation</a>. </p>
+<p>Types of dialogue actions avaliable. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a93c820f6d5ff5fbc28c7e13573b628cda10ac3d04253ef7e1ddc73e6091c0cd55"></a>Next&#160;</td><td class="fielddoc"><p>following DialogueLine in array. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a93c820f6d5ff5fbc28c7e13573b628cdadacdb83ade6c4e8878717e206175dfd8"></a>Branch&#160;</td><td class="fielddoc"><p>specific DialogueLine in array chosen within the Inspector. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a93c820f6d5ff5fbc28c7e13573b628cdab665d826e919381052ec23b9eaec3b62"></a>Bye&#160;</td><td class="fielddoc"><p>ends <a class="el" href="../../d5/db5/class_wakaba_1_1_dialogue_1_1_conversation.html" title="This is a ScriptableObject that contains information about a specific Conversation accessible within ...">Conversation</a>. </p>
+</td></tr>
+</table>
 
-<p class="definition">Definition at line <a class="el" href="../../df/def/_conversation_8cs_source.html#l00050">50</a> of file <a class="el" href="../../df/def/_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/def/_conversation_8cs_source.html#l00048">48</a> of file <a class="el" href="../../df/def/_conversation_8cs_source.html">Conversation.cs</a>.</p>
 
 </div>
 </div>

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['updatedisplay_62',['UpdateDisplay',['../d6/dc0/class_wakaba_1_1_dialogue_1_1_dialogue_manager.html#a4bd81edc14f63a1d6faf8a9c41c05589',1,'Wakaba::Dialogue::DialogueManager']]]
+  ['tagattribute_64',['TagAttribute',['../df/d91/class_wakaba_1_1_tag_attribute.html',1,'Wakaba']]],
+  ['tagdrawer_65',['TagDrawer',['../d5/d63/class_wakaba_1_1_tag_drawer.html',1,'Wakaba']]],
+  ['trigger_66',['Trigger',['../d3/dba/class_wakaba_1_1_trigger.html',1,'Wakaba']]]
 ];
