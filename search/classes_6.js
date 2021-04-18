@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['life_99',['Life',['../d5/daa/class_wakaba_1_1_placeholder_1_1_life.html',1,'Wakaba::Placeholder']]],
-  ['lootable_100',['Lootable',['../d2/db5/class_wakaba_1_1_loot_1_1_lootable.html',1,'Wakaba::Loot']]],
-  ['lootcontainer_101',['LootContainer',['../dc/d7c/class_wakaba_1_1_loot_1_1_loot_container.html',1,'Wakaba::Loot']]],
-  ['lootmanager_102',['LootManager',['../d4/d0e/class_wakaba_1_1_loot_1_1_loot_manager.html',1,'Wakaba::Loot']]],
-  ['loottable_103',['LootTable',['../d1/ddb/class_wakaba_1_1_loot_1_1_loot_table.html',1,'Wakaba::Loot']]]
+  ['life_95',['Life',['../d5/daa/class_wakaba_1_1_placeholder_1_1_life.html',1,'Wakaba::Placeholder']]],
+  ['lootable_96',['Lootable',['../d2/db5/class_wakaba_1_1_loot_1_1_lootable.html',1,'Wakaba::Loot']]],
+  ['lootcontainer_97',['LootContainer',['../dc/d7c/class_wakaba_1_1_loot_1_1_loot_container.html',1,'Wakaba::Loot']]],
+  ['lootmanager_98',['LootManager',['../d4/d0e/class_wakaba_1_1_loot_1_1_loot_manager.html',1,'Wakaba::Loot']]],
+  ['loottable_99',['LootTable',['../d1/ddb/class_wakaba_1_1_loot_1_1_loot_table.html',1,'Wakaba::Loot']]]
 ];
