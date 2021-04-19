@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['initialise_145',['Initialise',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html#a1647f98c49d9fc6446390556aec6e504',1,'Wakaba::Mobile::MobileInput']]],
-  ['insertionsort_3c_20t_20_3e_146',['InsertionSort&lt; T &gt;',['../df/d3a/class_wakaba_1_1_utils_1_1_extensions_1_1_sorting_extension.html#a1239093692b2c49011d0204ef89ce3ba',1,'Wakaba::Utils::Extensions::SortingExtension']]],
-  ['issingletonvalid_147',['IsSingletonValid',['../db/d75/class_wakaba_1_1_mono_singleton.html#aab30e4615c47cb419ea1025552a00486',1,'Wakaba::MonoSingleton']]]
+  ['initialise_128',['Initialise',['../df/d63/class_wakaba_1_1_mobile_1_1_mobile_input.html#a1647f98c49d9fc6446390556aec6e504',1,'Wakaba::Mobile::MobileInput']]],
+  ['insertionsort_3c_20t_20_3e_129',['InsertionSort&lt; T &gt;',['../df/d3a/class_wakaba_1_1_utils_1_1_extensions_1_1_sorting_extension.html#a1239093692b2c49011d0204ef89ce3ba',1,'Wakaba::Utils::Extensions::SortingExtension']]],
+  ['issingletonvalid_130',['IsSingletonValid',['../db/d75/class_wakaba_1_1_mono_singleton.html#aab30e4615c47cb419ea1025552a00486',1,'Wakaba::MonoSingleton']]]
 ];

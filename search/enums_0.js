@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dialogueactions_163',['DialogueActions',['../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd',1,'Wakaba::Dialogue']]]
+  ['dialogueactions_146',['DialogueActions',['../dc/d1d/namespace_wakaba_1_1_dialogue.html#a93c820f6d5ff5fbc28c7e13573b628cd',1,'Wakaba::Dialogue']]]
 ];
